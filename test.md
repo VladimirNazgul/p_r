@@ -8,3 +8,8 @@
 git clone https://github.com/CanUFeelMyHeart/brave3690.git
 
 Репозитории можно выгружать с внешних ресурсов для этого можно воспользоваться командой git clone и указать адрес (ссылку) репозитория.
+
+Добавить с локального на вне:  
+git remote add origin https://github.com/VladimirNazgul/p_r.git  
+git branch -M main  
+git push -u origin main (перемещение, необходима авторизация на GitHub)
